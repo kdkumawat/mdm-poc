@@ -18,7 +18,7 @@ or
 ### Install/Uninstall the service
 1. Open Command Prompt as Admin
 2. Create service - `sc create "MDM Agent Service POC" binPath="{path of above binary bulild}" start=auto`
-    eg. `sc create "MDM Agent Service POC" binPath="E:\Projects\POC\mdm-poc\dist\mdm-agent-service.exe" start=auto`
+    eg. `sc create "MDM Agent Service POC" binPath="C:\go\src\github.com\kdkumawat\mdm-poc\dist\mdm-agent-service.exe" start=auto`
 3. Start service - `sc start "MDM Agent Service POC"`
 4. Stop service - `sc stop "MDM Agent Service POC"`
 5. Delete service - `sc delete "MDM Agent Service POC"`
